@@ -1,5 +1,6 @@
 This project implements a complete ROS2-based software stack for a differential drive robot. It is divided into three functional packages that handle robot simulation/logic, motion control, and system deployment.
-Core Functionality
+
+Core Functionality:
 
     robot_package: The core "Digital Twin" of the robot.
 
