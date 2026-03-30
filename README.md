@@ -17,3 +17,14 @@ Core Functionality:
         Motion Profiling: Executes a two-stage maneuver: a precise angular rotation to a target degree, followed by a 1-meter linear translation with high precision (1 mm tolerance).
 
     launch_package: Orchestration layer providing standardized entry points for launching the robot logic and controller nodes independently.
+
+
+Technical Stack:
+
+    Framework: ROS2 (Ament Python)
+
+    Language: Python 3
+
+    Communication: Pub/Sub (Topics), Request/Response (Services)
+
+    Key Math: Differential Drive Kinematics, Euler Integration for Pose, Coordinate Transformations (Degrees to Radians).
